@@ -3,8 +3,50 @@ layout: default
 title: 前端基础之浏览器内部工作原理
 ---
 <h2>{{ page.title }}</h2>
-<p>浏览器内部工作原理</p>
+<h3>浏览器内部工作原理</h3>
 <p>{{ page.date | date_to_string }}</p>
-<p>
-   作为前端，知道浏览器如何解析代码是十分必要的
+<p class="p1">
+    学习前端，浏览器解析成为必须要掌握的内容，浏览器显示的内容从哪里来，如何解析，如何布局，如何添加相应的交互动作，针对浏览器的内部工作原理，业界有一篇十分详细的文章，<a href="">浏览器的内部工作原理</a>本文的结构如下
+    <ul>
+        <li>浏览器的组成部分</li>
+        <li>HTML解析</li>
+        <li>CSS解析</li>
+        <li>js解析</li>
+        <li>数据存储</li>
+    </ul>
 </p>
+<div class="parter1">
+    <h3>浏览器的组成部分</h3>
+    <ul>
+        <li>用户界面</li>
+        <li>浏览器引擎：用来查询及操作渲染引擎的接口</li>
+        <li>渲染引擎：用来显示请求的内容，例如，请求的内容是HTML，它负责解析HTML及CSS，并将解析后的结果显示出来</li>
+        <li>网络：用来完成网络调用，例如http请求</li>
+        <li>UI后端：用来绘制类似组合选择框及对话框等基本组件，具有不特定于某个平台的通用接口，底层使用操作系统的用户接口</li>
+        <li>JS解释器：用来解释执行JS代码</li>
+        <li>数据存储：属于持久层，浏览器需要在硬盘中保存类似cookie的各种数据，HTML5定义了webdatebase技术，这是一种轻量级完整的客户端存储技术</li>
+    </ul>
+</div>
+<div class="parter2">
+    <h3>渲染引擎</h3>
+    <p>目前使用的渲染引擎有两种，webkit（Safari，Chrome） ,Gecko（Firefox）</p>
+    <p>通过网络获取web资源后，渲染引擎如何解析文档内容？其基本流程是解析HTML以构建DOM树&gt;构建render树&gt;布局render树&gt;绘制render树</p>
+    <p><h4>第一步：构建DOM树：</h4>渲染引擎将标签转化为内容树中的DOM节点</p>
+    <p><h4>第二步构建render树：</h4>DOM节点完成后，浏览器解析CSS文件及style标签中的样式，构建另一棵树，render树；此树是由一些包含颜色和大小属性的矩形组成</p>
+    <p><h4>第三步布局render树：</h4>确定每个DOM节点在屏幕上的坐标</p>
+    <p><h4>第四步绘制render树：</h4>遍历render树，并使用UI后端层绘制每个节点</p>
+</div>
+<div class="parter3">
+    <h3>解析与构建DOM树</h3>
+    <p>浏览器获取到的是HTML文档，首先浏览器先将其解析为计算机能够识别的语言，计算机将其转换为机器文档，</p>
+</div>
+<div class="parter4">
+    <h3>解析render</h3>
+</div>
+<div class="parter5">
+    <h3>布局</h3>
+</div>
+<div class="parter5">
+    <h3>绘制</h3>
+</div>
+
