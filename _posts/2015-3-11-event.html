@@ -2,6 +2,7 @@
 layout:default
 title: javascript设计模式系列
 ---
+<link rel="stylesheet" href="{{site.baseurl}}/stylesheets/styles.css">
 <h2>javascript设计模式概述</h2>
 <p>{{ page.date | date_to_string }}</p>
 <p>
@@ -20,6 +21,8 @@ title: javascript设计模式系列
  <div>
      <h3>设计模式之模块模式（module model）</h3>
      <p>基本概念：模块模式被定义为一种在传统软件工程中为类提供私有和公有封装的方法，在javascript中，Module模式用于进一步模拟类的概念，通过这种方式，能够使一个单独的对象拥有公有和私有方法和变量，从而屏蔽来自全局作用域的特殊部分</p>
+     <p>基础知识：Module模式使用闭包封装“私有”状态和组织，它提供了一种包装混合公有私有方法和变量的方式，防止其泄露至全局作用域，并与别的开发人员的接口发生冲突，这个接口只需要返回一个API，而其他的一切都维持在私有闭包里；举个例子来深入理解下</p>
+     
  </div>
 
 

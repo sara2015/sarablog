@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a635912-46f8-4c33-960a-4e7a9bc235f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-3-11-event.html" afterPath="$PROJECT_DIR$/_posts/2015-3-11-event.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sarablog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,16 @@
       <file leaf-file-name="2015-3-11-event.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-3-11-event.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.60728747" vertical-offset="0" max-vertical-offset="741">
+            <state line="24" column="5" selection-start="833" selection-end="833" vertical-scroll-proportion="0.48582995" vertical-offset="0" max-vertical-offset="741">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="74" selection-start="147" selection-end="217" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -132,6 +140,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sarablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sarablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,9 +317,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="74" selection-start="147" selection-end="217" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-3-11-event.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.60728747" vertical-offset="0" max-vertical-offset="741">
+        <state line="24" column="5" selection-start="833" selection-end="833" vertical-scroll-proportion="0.48582995" vertical-offset="0" max-vertical-offset="741">
           <folding />
         </state>
       </provider>
