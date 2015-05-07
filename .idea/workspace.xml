@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a635912-46f8-4c33-960a-4e7a9bc235f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/stylesub.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-3-11-event.html" afterPath="$PROJECT_DIR$/_posts/2015-3-11-event.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/styles.css" afterPath="$PROJECT_DIR$/stylesheets/styles.css" />
     </list>
     <ignored path="sarablog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +40,7 @@
           <file leaf-file-name="2015-3-11-event.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_posts/2015-3-11-event.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.708502" vertical-offset="0" max-vertical-offset="750">
+                <state line="10" column="11" selection-start="289" selection-end="289" vertical-scroll-proportion="0.20242915" vertical-offset="0" max-vertical-offset="780">
                   <folding />
                 </state>
               </provider>
@@ -49,7 +49,7 @@
           <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_layouts/default.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="27" selection-start="258" selection-end="265" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="450">
+                <state line="8" column="18" selection-start="251" selection-end="256" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="450">
                   <folding />
                 </state>
               </provider>
@@ -59,13 +59,22 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="stylesub.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="stylesub.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stylesheets/stylesub.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="356" column="0" selection-start="8313" selection-end="8313" vertical-scroll-proportion="1.3359478" vertical-offset="4438" max-vertical-offset="5550">
+                <state line="307" column="5" selection-start="7419" selection-end="7419" vertical-scroll-proportion="0.0" vertical-offset="1798" max-vertical-offset="5550">
                   <folding>
                     <element signature="e#770#1135#1" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/stylesheets/styles.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="19" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.35317996" vertical-offset="84" max-vertical-offset="5490">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -96,6 +105,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2015-3-10-AMD.html" />
         <option value="$PROJECT_DIR$/stylesheets/stylesub.css" />
+        <option value="$PROJECT_DIR$/stylesheets/styles.css" />
         <option value="$PROJECT_DIR$/_posts/2015-3-11-event.html" />
       </list>
     </option>
@@ -352,32 +362,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="0" selection-end="8313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/stylesub.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="356" column="0" selection-start="8313" selection-end="8313" vertical-scroll-proportion="1.3359478" vertical-offset="4438" max-vertical-offset="5550">
+        <state line="307" column="5" selection-start="7419" selection-end="7419" vertical-scroll-proportion="0.0" vertical-offset="1798" max-vertical-offset="5550">
           <folding>
             <element signature="e#770#1135#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.35317996" vertical-offset="84" max-vertical-offset="5490">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="258" selection-end="265" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="8" column="18" selection-start="251" selection-end="256" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-3-11-event.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.708502" vertical-offset="0" max-vertical-offset="750">
+        <state line="10" column="11" selection-start="289" selection-end="289" vertical-scroll-proportion="0.20242915" vertical-offset="0" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
