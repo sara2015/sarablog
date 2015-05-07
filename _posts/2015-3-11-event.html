@@ -12,26 +12,107 @@ title: javascript设计模式系列
             工作将近两年的时间，之前一直在做重构的工作，后来终于有幸进入javascript开发，最开始进入开发的方式是过程式开发，开发结束后进行代码review，将javascript设计模式看了下，现在整理如下
         </p>
 
-        <div>
+        <div class="layout">
             <h3>为什么引入设计模式</h3>
             <p>之所以引入设计模式，是为了在设计开发的时候让代码更加规整，也让代码在后续维护起来更加容易，属于团队代码的维护部分</p>
         </div>
-        <div>
+        <div class="layout">
             <h3>如何介绍设计模式</h3>
             <p>设计模式有很多内容，小到对象创建模式，大到架构模式，我们从最基本的代码书写规范开始入手，把教科书和自己的代码经历结合起来</p>
         </div>
 
-        <div>
+        <div class="layout">
             <h3>设计模式之模块模式（module model）</h3>
             <p>基本概念：模块模式被定义为一种在传统软件工程中为类提供私有和公有封装的方法，在javascript中，Module模式用于进一步模拟类的概念，通过这种方式，能够使一个单独的对象拥有公有和私有方法和变量，从而屏蔽来自全局作用域的特殊部分</p>
             <p>基础知识：Module模式使用闭包封装“私有”状态和组织，它提供了一种包装混合公有私有方法和变量的方式，防止其泄露至全局作用域，并与别的开发人员的接口发生冲突，这个接口只需要返回一个API，而其他的一切都维持在私有闭包里；举个例子来深入理解下</p>
+            <p>
+                /**
+                * Auhor: shaoyuan.wangsy
+                * Descript:模块模式实例
+                * time：2015.05.07
+                */
+
+                /**
+                * javascript设计模式——基本实例
+                * 从这个例子可以看出，这个对象类似一个类，私有变量方法，公有变量方法，清楚明了，外界只能通过加前缀实现
+                * return里面的内容是公有变量，其余闭包内的var是私有变量
+                * 这里看下模块模式如何实现一个购物车
+                * *****/
+
+                var basketModule = (function(){
+
+                //私有
+                var basket = [];
+
+                function doSomethingPrivate() {
+                //..
+                }
+                function doSomethingPrivate() {
+                //..
+                }
+
+                //返回一个暴露出的公共对象
+                return {
+
+                //添加item到购物车
+                addItem: function(values){
+                basket.push(values);
+                },
+
+                //获取购物车里的item数
+                getItemCount: function(){
+                return basket.length;
+                },
+
+                //私有函数的公有形式别名
+                doSomething: doSomethingPrivate(),
+
+                //获取购物车里所有item的价格总值
+                getTotal: function(){
+                var itemCount = this.getItemCount(),
+                total = 0;
+
+                while (itemCount--){
+                total += basket[itemCount].price;
+                }
+
+                return total;
+                }
+
+                }
+
+                })();
+
+
+
+                /**
+                * 项目中真正实例分析，多个dialog同时出现，多种情形
+                *
+                * *****/
+                (function(){
+                function _dialog_f(options){
+                // ..
+                dialog.show();
+                }
+
+                var app = {};
+
+                app.initOperation = function(){};
+                app.agree_f = function(){};
+                app.disagree_f = function(){};
+                app.checkpass_f = function(){};
+                app.refundpass_f = function(){};
+
+                return app;
+                })();
+
+
+            </p>
 
         </div>
 
 
-        <p>
-            工作将近两年的时间，之前一直在做重构的工作，后来终于有幸进入javascript开发，最开始进入开发的方式是过程式开发，开发结束后进行代码review，将javascript设计模式看了下，现在整理如下
-        </p>
+
     </div>
 
 
